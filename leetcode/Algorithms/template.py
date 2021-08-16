@@ -48,6 +48,7 @@ if __name__ == "__main__":
             print(f"Test {idTest}: Wrong Answer")
             print(f"Expected: {Out}")
             print(f"Actual: {ans}")
+        print()
 
     testing.setTestCheck(testCheck)
 
