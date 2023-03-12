@@ -1,11 +1,12 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 const int MAXN = 4e5 + 10;
 
 vector<int> g[MAXN];
 vector<int> g_rev[MAXN];
-vector<pair<int, int>> edges;
+vector< pair<int, int> > edges;
 vector<int> order;
 
 bool visited[MAXN];
